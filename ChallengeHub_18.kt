@@ -32,7 +32,6 @@ fun main() {
             var newTime = timeOutMoins.format(DateTimeFormatter.ofPattern("HH:mm:ss"))
             if (isPal(newTime)) {
                 locResult = sec
-                println("$timeIn - $sec = $newTime")
                 break
             }
 
@@ -40,7 +39,6 @@ fun main() {
             newTime = timeOutPlus.format(DateTimeFormatter.ofPattern("HH:mm:ss"))
             if (isPal(newTime)) {
                 locResult = sec
-                println("$timeIn + $sec = $newTime")
                 break
             }
         }
