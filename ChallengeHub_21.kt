@@ -1,8 +1,7 @@
 // voir https://challenges.aquaq.co.uk/challenge/21
 // la recherche de tous les paths possibles plante avec getAllPaths de jGrapht
 // cette solution fonctionne mais prend presque 20 minutes sur les 500 lignes de l'input
-// voir https://github.com/tbeu/AquaQChallengeHub/blob/master/challenges/21/challenge21.cpp
-// beaucoup plus rapide...
+// la version BellmanFord de ChallengeHub_21-2.kt, beaucoup plus rapide, ne met que 1 mn 53 s !
 
 fun main() {
 
